@@ -15,7 +15,7 @@ app.use(express.json());
 // //   res.json("server start");
 // // });
 
-app.use('/api',router);
+app.use('/api/auth',router);
 //let Db ="mongodb+srv://andrew:andrewdev@cluster3.bli4t.mongodb.net/test"
 let Db ="mongodb+srv://admin:admin1234@cluster3.bli4t.mongodb.net/mouseproject?retryWrites=true&w=majority"
 
